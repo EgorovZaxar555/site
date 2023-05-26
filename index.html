@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Сайт СТИ</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="navbar-logo">
+            <a href="" class="logo">
+                <img class="icon_logo" src="images/icon_logo.png" alt="">
+                <img src="images/logo.svg" alt="">
+                <div class="logo-title">
+                    <p>СТИ</p>
+                    <p class="span">нияу мифи</p>
+                </div>
+                <div class="line"></div>
+                <p class="sti-logo">СЕВЕРСКИЙ ТЕХНОЛОГИЧЕСКИЙ<br>ИНСТИТУТ НИЯУ МИФИ</p>
+            </a>
+
+            <div class="appeal">
+                <a href="" class="even-week">ЧЕТНАЯ НЕДЕЛЯ</a>
+                <a href="" class="btn-appeal">
+                    <div class="btn-appeal">ОБРАЩЕНИЕ</div>
+                </a>
+                <a href="" class="eng"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                        <path
+                            d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                    </svg></a>
+
+
+                <div class="burger-eng">
+                    <button id="hamb" onclick="switchLang()">EN</button>
+                    <div class="burger"><img src="images/burger.png" alt=""></div>
+                </div>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <div class="navbar-links">
+                <div class="links">
+                    <a href="" class="link">Главная</a>
+                    <a href="" class="link">О филиале</a>
+                    <a href="" class="link">Образование</a>
+                    <a href="" class="link">Наука</a>
+                    <a href="" class="link">Студенческая жизнь</a>
+                    <a href="" class="link">Карьера</a>
+                    <a href="" class="link">Инженерная школа</a>
+                    <a href="" class="link">Контакты</a>
+                </div>
+            </div>
+
+            <div class="navbar-block">
+                <div class="dropdown">
+                    <a href="" class="dropbtn">ПОСТУПАЮЩИМ</a>
+                    <div class="dropdown-content">
+                        <div class="menu_content">
+                            <div class="menu_content_block">
+                                <a href="" class="link-menu">прием в 2022</a>
+                                <a href="" class="link-menu">день открытх дверей 2022</a>
+                                <a href="" class="link-menu">документы для поступления</a>
+                                <a href="" class="link-menu">иногородним студентам</a>
+                            </div>
+                            <div class="menu_content_block">
+                                <a href="" class="link-menu">специальности и направления</a>
+                                <a href="" class="link-menu">бакалавриат, специалитет</a>
+                                <a href="" class="link-menu">магистратура</a>
+                                <a href="" class="link-menu">аспирантура</a>
+                            </div>
+                            <div class="menu_content_block">
+                                <a href="" class="link-menu">вступительные испытания</a>
+                                <a href="" class="link-menu">усет индивидуальных достижений</a>
+                                <a href="" class="link-menu">особые права и учет результатов</a>
+                                <a href="" class="link-menu">конкурсы предыдущих лет</a>
+                                <a href="" class="link-menu">приказы, списки</a>
+                            </div>
+                            <div class="dropdown_image"><img src="images/лого.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="dropdown">ОБУЧАЮЩИМСЯ</a>
+                <a href="" class="dropdown">ПРЕПОДАВАТЕЛЯМ И СОТРУДНИКАМ</a>
+                <a href="" class="dropdown">ВЫПУСКНИКАМ</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slide_image"><img src="images/slide1.jpg" alt=""></div>
+            <div class="slide_block">
+                <div class="slide-text">
+                    <h1 class="slide-title">НИЯУ МИФИ</h1>
+                    <p>готовит элитных специалистов для атомной сферы, науки, ИТ и других
+                        высокотехнологичных секторов экономики России.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="achievements">
+        <div class="container">
+            <div class="achievements_block">
+                <div class="achievement-card">
+                    <div class="achievement-image"><img src="images/icon1.png" alt=""></div>
+                    <h3 class="achievement-one">3</h3>
+                    <p class="achievement-info-text">место среди вузов томской области</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-image"><img src="images/icon2.png" alt=""></div>
+                    <div class="achievement-two">
+                        <h3>91</h3>
+                        <p>%</p>
+                    </div>
+
+                    <p class="achievement-info-text">трудоустроенных выпускников</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-image"><img src="images/icon3.png" alt=""></div>
+                    <h3 class="achievement-three">>80</h3>
+                    <p class="achievement-info-text">предприятий партнеров</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-image"><img src="images/icon4.png" alt=""></div>
+                    <div class="achievement-four">
+                        <h3>>60</h3>
+                        <p>млн</p>
+                    </div>
+
+                    <p class="achievement-info-text">Исследования и разработки</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="news">
+        <div class="container">
+            <div class="news-title">Новости</div>
+            <div class="news_cards">
+                <section>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">Торжественное вручение дипломов НИЯУ МИФИ</div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">Распределение молодых специалистов, выпускников технических специальностей
+                            на предприятия и в организации</div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">В СТИ НИЯУ МИФИ успешно прошли защиты выпускных квалификационных работ
+                            студентов</div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">Очно-заочные туры олимпиады ГК «Росатом» для школьников
+                        </div>
+                        <div class="new-line"></div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">Торжественное вручение дипломов НИЯУ МИФИ</div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">Торжественное вручение дипломов НИЯУ МИФИ</div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">Распределение молодых специалистов, выпускников технических
+                            специальностей
+                            на
+                            предприятия и в организации </div>
+                    </div>
+                    <div class="new-card">
+                        <div class="new-image"><a href=""><img src="images/news1.jpg" alt=""></a></div>
+                        <div class="new-date-view">
+                            <div class="date">16.02.2022</div>
+                            <div class="view">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-eye" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                    <path
+                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                </svg>
+                                33
+                            </div>
+                        </div>
+                        <div class="new-info">В СТИ НИЯУ МИФИ успешно прошли защиты выпускных квалификационных
+                            работ
+                            студентов
+                        </div>
+                        <div class="new-line"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="arrows-news">
+                <div class="all-news"><a href="">Все новости</a></div>
+                <div class="arrows">
+                    <p>
+                        <span>&larr;</span>
+                        <span>&rarr;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="announcements_tabs">
+        <div class="container">
+            <div class="announcements_tabs_container">
+                <div class="tab-btn-container">
+                    <div class="tab-btn active-btn" onclick="showTab('tab1-1')">Анонсы</div>
+                    <div class="tab-btn" onclick="showTab('tab1-2')">объявления</div>
+                </div>
+                <div class="tab active-tab" id="tab1-1">
+                    <section class="announcements">
+                        <div class="container">
+                            <div class="announcements_cards">
+                                <div class="announcements-card">
+                                    <h4><a href="">В актовом зале 12 апреля состоится
+                                            День открытых дверей!</a></h4>
+                                    <div class="announcement-info">Северский технологический институт НИЯУ МИФИ
+                                        приглашает учащихся
+                                        9-11
+                                        классов,
+                                        выпускников колледжей и техникумов и родителей на День открытых дверей!
+                                    </div>
+                                    <div class="new-date-view">
+                                        <div class="date">16.02.2022</div>
+                                        <div class="view">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                <path
+                                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                            </svg>
+                                            33
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="announcements-card">
+                                    <h4><a href="">Летний образовательный проект. Обучение и отдых за рубежом</a></h4>
+                                    <div class="announcement-info">Для детей от 12 до 18 лет есть возможность обучения
+                                        английскому
+                                        языку
+                                        в
+                                        международных центрах образования Ирландии и Великобритании.
+                                    </div>
+                                    <div class="new-date-view">
+                                        <div class="date">16.02.2022</div>
+                                        <div class="view">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                <path
+                                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                            </svg>
+                                            33
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="announcements-card">
+                                    <h4><a href="">Актуальные проблемы инновационного развития ядерных технологий</a>
+                                    </h4>
+                                    <div class="announcement-info">Конференция будет проходить с 08 по 12 апреля 2019 г.
+                                        в СТИ НИЯУ
+                                        МИФИ, г.
+                                        Северск Томской области, пр. Коммунистический, 65.
+                                    </div>
+                                    <div class="new-date-view">
+                                        <div class="date">16.02.2022</div>
+                                        <div class="view">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                <path
+                                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                            </svg>
+                                            33
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrows">
+                                <p>
+                                    <strong>&larr;</strong>
+                                    <strong>&rarr;</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab" id="tab1-2">
+                    <section class="announcements">
+                        <div class="container">
+                            <div class="announcements_cards">
+                                <div class="announcements-card">
+                                    <h4><a href="">В актовом зале 12 апреля состоится
+                                            День открытых дверей!</a></h4>
+                                    <div class="announcement-info">Северский технологический институт НИЯУ МИФИ
+                                        приглашает учащихся
+                                        9-11
+                                        классов,
+                                        выпускников колледжей и техникумов и родителей на День открытых дверей!
+                                    </div>
+                                    <div class="new-date-view">
+                                        <div class="date">16.02.2022</div>
+                                        <div class="view">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                <path
+                                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                            </svg>
+                                            33
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="announcements-card">
+                                    <h4><a href="">Летний образовательный проект. Обучение и отдых за рубежом</a></h4>
+                                    <div class="announcement-info">Для детей от 12 до 18 лет есть возможность обучения
+                                        английскому
+                                        языку
+                                        в
+                                        международных центрах образования Ирландии и Великобритании.
+                                    </div>
+                                    <div class="new-date-view">
+                                        <div class="date">16.02.2022</div>
+                                        <div class="view">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                <path
+                                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                            </svg>
+                                            33
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="announcements-card">
+                                    <h4><a href="">Актуальные проблемы инновационного развития ядерных технологий</a>
+                                    </h4>
+                                    <div class="announcement-info">Конференция будет проходить с 08 по 12 апреля 2019 г.
+                                        в СТИ НИЯУ
+                                        МИФИ, г.
+                                        Северск Томской области, пр. Коммунистический, 65.
+                                    </div>
+                                    <div class="new-date-view">
+                                        <div class="date">16.02.2022</div>
+                                        <div class="view">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                <path
+                                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                            </svg>
+                                            33
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="new_banner">
+        <div class="container">
+            <div class="banner_news">
+                <div class="banner_card">
+                    <div class="banner-image"><img src="images/banner1.jpg" alt=""></div>
+                    <div class="banner-text">Оперативный штаб по борьбе с коронавирусом</div>
+                </div>
+                <div class="banner_card">
+                    <div class="banner-image"><img src="images/banner1.jpg" alt=""></div>
+                    <div class="banner-text">С праздником победы!</div>
+                </div>
+                <div class="banner_card">
+                    <div class="banner-image"><img src="images/banner1.jpg" alt=""></div>
+                    <div class="banner-text">«открытый разговор» со студентом Никитой каорпвым</div>
+                </div>
+                <div class="banner_card">
+                    <div class="banner-image"><img src="images/banner1.jpg" alt=""></div>
+                    <div class="banner-text">вакцина от коронавируса  пока не найдена</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="galery-tabs">
+        <div class="container">
+            <div class="tab-btn-container">
+                <div class="tab-btn active-btn" onclick="showTab('tab2-1')">Фотогалерея</div>
+                <div class="tab-btn" onclick="showTab('tab2-2')">Видеогалерея</div>
+            </div>
+            <div class="tab active-tab" id="tab2-1">
+                <section class="galery_tabs">
+                    <div class="galery_tabs_card">
+                        <div class="galery-image"><img src="images/galery/foto1.jpg" alt=""></div>
+                        <div class="galey_tabs_date">
+                            <p class="galery_date">05.12.2019</p>
+                            <p class="galery_foto">33 фото</p>
+                        </div>
+                        <div class="galery_text">V юбилейный фестиваль иностранных студентов "Все флаги в гости к нам"
+                        </div>
+                    </div>
+                    <div class="galery_tabs_card">
+                        <div class="galery-image"><img src="images/galery/foto1.jpg" alt=""></div>
+                        <div class="galey_tabs_date">
+                            <p class="galery_date">05.12.2019</p>
+                            <p class="galery_foto">33 фото</p>
+                        </div>
+                        <div class="galery_text">V юбилейный фестиваль иностранных студентов "Все флаги в гости к нам"
+                        </div>
+                    </div>
+                    <div class="galery_tabs_card">
+                        <div class="galery-image"><img src="images/galery/foto1.jpg" alt=""></div>
+                        <div class="galey_tabs_date">
+                            <p class="galery_date">05.12.2019</p>
+                            <p class="galery_foto">33 фото</p>
+                        </div>
+                        <div class="galery_text">V юбилейный фестиваль иностранных студентов "Все флаги в гости к нам"
+                        </div>
+                    </div>
+                </section>
+                <div class="galery_arrows">
+                    <div class="galey_link"><a href="">Перейти в галерею</a></div>
+                    <div class="galey_arrow">
+                        <p>
+                            <strong>&larr;</strong>
+                            <strong>&rarr;</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="tab2-2">
+                <p>This is the content for Tab 2-2</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cooperation">
+        <div class="container">
+            <div class="cooperation-title">Мы сотрудничаем</div>
+            <div class="cooperation_cards">
+                <div class="cooperation-card">
+                    <div class="cooperation-logo"><img src="images/logo1.png" alt=""></div>
+                </div>
+                <div class="cooperation-card">
+                    <div class="cooperation-logo"><img src="images/logo2.png" alt=""></div>
+                </div>
+                <div class="cooperation-card">
+                    <div class="cooperation-logo"><img src="images/logo3.png" alt=""></div>
+                </div>
+                <div class="cooperation-card">
+                    <div class="cooperation-logo"><img src="images/logo4.png" alt=""></div>
+                </div>
+                <div class="cooperation-card">
+                    <div class="cooperation-logo"><img src="images/logo5.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="employment">
+        <div class="container">
+            <div class="employment-title">Трудоустройство</div>
+            <div class="employment-map"></div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-title">Контакты</div>
+            <div class="contact-map">
+                <div class="contact-map-image"><img src="images/map.jpg" alt=""></div>
+
+                <div class="contact-block">
+                    <div class="contact-info">
+                        <div class="address"><span>Адрес:</span> 636036, Сибирский федеральный округ, Томская
+                            область,
+                            г.Северск, пр.Коммунистический, 65</div>
+                        <div class="email"><span>Электронная почта: <br> </span>ssti@mephi.ru</div>
+                        <div class="tel"><span>Телефон:</span> 8 (3823) 780-204</div>
+                        <div class="contact-icons">
+                            <a href="" class="contact-icons-img"><img src="images/icon_vk.png" alt=""></a>
+                            <a href="" class="contact-icons-img"><img src="images/icon_youtube.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="useful_links">
+        <div class="container">
+            <div class="accordion" id="accordion-1">
+                <div class="accordion__item">
+                    <div class="accordion__header">
+                        Полезные ссылки
+                    </div>
+                    <div class="accordion__body">
+                        <div class="useful_links-blocks accordion__body">
+                            <div class="useful_links-block">
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon1.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Министерство науки и высшего образования РФ</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon2.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Наука и образование против террора</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon3.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Study in Russia</div>
+                                </a>
+                            </div>
+
+                            <div class="useful_links-block">
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon4.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Программа повышения конкурентоспособности</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon5.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Диссертационные советы</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon6.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Уникальная научная установка НЕВОД</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon7.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Олимпиада «Я - профи»</div>
+                                </a>
+                            </div>
+
+                            <div class="useful_links-block">
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon8.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Противодействие коррупции</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon9.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Социальный навигатор</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon10.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Турнир «ТеМП»</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon11.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Тревожная кнопка</div>
+                                </a>
+                            </div>
+
+                            <div class="useful_links-block">
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon12.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Министерство науки и высшего образования РФ</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon13.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Наука и образование против террора</div>
+                                </a>
+                                <a href="" class="useful_link">
+                                    <div class="useful_link-img"><img src="images/useful_links/icon14.png" alt="">
+                                    </div>
+                                    <div class="useful_link-text">Study in Russia</div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_container">
+
+            <div class="footer_info">
+                <div class="footer-left">
+                    <div class="footer-left-top">
+                        <div class="top-left">
+                            <h3>Адрес, Телефон, Е-маил</h3>
+                            <p>115409, Москва, Каширское ш., 31</p>
+                            <p>+7 495 788 5699, +7 499 324 7777</p>
+                            <p>info@mephi.ru</p>
+                        </div>
+                        <div class="top-right">
+                            <h3>Приемная комиссия</h3>
+                            <p>+7 800 775 15 51 <span>(многоканальный)</span> </p>
+                            <p>+7 495 785 55 25 <span>(многоканальный)</span></p>
+                        </div>
+                    </div>
+                    <div class="footer-left-button">
+                        <div class="button-left">
+                            <div class="social">
+                                <a href=""><img src="images/icons_footer/icon1.png" alt=""></a>
+                                <a href=""><img src="images/icons_footer/icon2.png" alt=""></a>
+                                <a href=""><img src="images/icons_footer/icon3.png" alt=""></a>
+                                <a href=""><img src="images/icons_footer/icon4.png" alt=""></a>
+                                <a href=""><img src="images/icons_footer/icon5.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="button-right">
+                            <a href="" class="link_user"><img src="images/icons_footer/icon6.png" alt="">авторизация</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    <p>Свидетельство Роскомнадзора о регистрации Эл № ФС77-42318
+                        Использование новостных материалов сайта возможно только при наличии активной ссылки на mephi.ru
+                        Требования к новостным материалам сайта оговариваются редакционной политикой, ответственность за
+                        содержание новостных материалов несут авторы
+                        . Ответственный за редакционную политику: Начальник управления пресс-службы и информации
+                        Кузьмичев Андрей Николаевич
+
+                        Политика обработки персональных данных МИФИ
+                    </p>
+                    <a href="" class="politic_user">Политика обработки персональных данных МИФИ</a>
+                </div>
+            </div>
+            <div class="footer_image"><img src="images/Group.png" alt=""></div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
